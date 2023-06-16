@@ -6,7 +6,7 @@ import Form from "./Form.js";
 const App = () => {
   return (
     <div>
-        <Formm/>
+        <Form/>
     </div>
   )
 }
