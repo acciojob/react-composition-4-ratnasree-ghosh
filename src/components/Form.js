@@ -5,15 +5,15 @@ const Form = ()=>{
     let [email,setEmail] = useState("");
     let [pass,setPass] = useState("");
 
-    function getFnc(e){
-        e.preventDefault();
-        let obj= {name: name, email: email, password: pass}
-        console.log(obj);
+    // function getFnc(e){
+    //     e.preventDefault();
+    //     let obj= {name: name, email: email, password: pass}
+    //     console.log(obj);
 
-    }
+    // }
     return (
         <div>
-            <form onSubmit={getFnc(e)}>
+            <form >
                 <label for="name">name</label>
                 <input type="text" id="name" onChange={(e)=>setName(e.target.value)}/>
                 <br/>
